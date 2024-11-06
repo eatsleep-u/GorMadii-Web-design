@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GorMadii_Places</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/your/styles.css">
+</head>
+<!-- ใส่ภาพพื้นหลังใน Body -->
+<body style="background-image: url(https://thelist.group/realist/wp-content/uploads/2022/01/Untitled-1-01-scaled.jpg); background-repeat: no-repeat;   background-size: cover; background-attachment: fixed;">
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <!-- Navbar brand/logo -->
+          <a class="navbar-brand" href="./home.html">GorMadii</a>
+    
+          <!-- Navbar toggler button for small screens -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Navbar links and dropdown -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Categories
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="./park.html">Park</a>
+                  <a class="dropdown-item" href="./cafe.html">Café</a>
+                  <a class="dropdown-item" href="./co_working.html">Co-Working</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./home.html">Stations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutus.html">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- สร้าง Container เพื่อใส่ชื่อ Page -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <h1 class="mb-3" style="color: rgb(255, 255, 255); font-weight: 700; font-size: 80px; text-shadow: 5px 5px 6px rgb(79, 79, 79);
+                    text-align: center;"> Park </h1>
+                </div>
+            </div>
+        </div>
+      <!-- สร้าง Container แบ่งเป็น 3 columns โดยการกำหนดค่าเป็น 4 -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt10" class="btn-danger">
+              <!-- ตั้งค่ารูปให้อยู่ตรงกลาง Column ด้วย Center -->
+              <center><img src="./image/ศูนย์สิริกิติ์.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt10" class="popup_mrt10">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15503.267544974531!2d100.5484351023992!3d13.729533532153932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f1bbc1ff399%3A0x272f7997bda0bbf6!2sBenchakitti%20Park!5e0!3m2!1sen!2sth!4v1700943885110!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+              </div>
+              <p style="font-size: 20px;">สวนเบญจกิติ ศูนย์สิริกิติ์</p>
+              <p>สวนเบญจกิติ สวนสาธารณะใจกลางกรุงเทพ มีมุมถ่ายรูปดอกไม้ฟิน ๆ เหมือนอยู่ที่เกาหลี และยังมีโซนสะพานลอยฟ้าสุดฮิตให้เดินเล่นชมวิวสวย ๆ หรือจะไปออกกำลังกาย ปั่นจักรยาน นั่งอ่านหนังสือจัดปิกนิกกับเพื่อน ๆ ก็ทำได้ ถือเป็นสถานที่พักผ่อนหย่อนใจในวันเหนื่อย ๆ ได้ดีเลยค่ะ</p>
+              <p style="font-size: 20px;">การเดินทาง</p>
+              <p>ขึ้นจาก MRT สถานีศูนย์สิริกิติ์แล้วเดินมาทางออก 3 ระยะทางประมาณ 300 เมตรก็จะถึงประตูเข้าสวนเบญจกิติ</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt12" class="btn-danger">
+              <center><img src="./image/สีลม.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt12" class="popup_mrt12">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15503.140924711102!2d100.5314201023997!3d13.73144873195634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f26ed4bb01b%3A0xac01b20801f96936!2sLumphini%20Park!5e0!3m2!1sen!2sth!4v1700944004233!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+              </div>
+              <p style="font-size: 20px;">สวนลุมพินี สีลม</p>
+              <p>ใครที่ไม่รู้จะไปไหน ไม่ว่าจะมาคนเดียวหรือมากับใคร สวนลุมพินีตอบโจทย์มาก เพราะมีกิจกรรมให้ทำหลายอย่างมากกว่าที่เราคิดไว้ มีทั้งการปั่นเป็ด พายเรือ จะเดินชมธรรมชาติในสวน มองต้นไม้เขียว ๆ ในสวนก็หายเครียดแล้ว เราว่าสวนลุมพินีสวยมากถ่ายรูปได้หลายมุมเลย แถมสัตว์เยอะมากโดยเฉพาะน้องอีกา แถมยังมี้องสมุดประชาชนในสวมลุมฯด้วย มีหนังสือให้อ่านฆ่าเวลาได้เยอะเลย ส่วนโซนเด็กในห้องสมุดก็ทำดีมาก เราที่เป็นสายมังงะปลื้มสุด ๆ</p>
+              <p style="font-size: 20px;">การเดินทาง</p>
+              <p> นั่ง MRT ลงสถานีสีลม และออกทางออกที่ 1 จะขึ้นมาหน้าทางเข้าสวนลุมพินีเลย</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

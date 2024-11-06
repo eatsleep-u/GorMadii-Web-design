@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GorMadii_Places</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/your/styles.css">
+</head>
+<body style="background-image: url(./image/cafe-bg.jpg); background-repeat: no-repeat;   background-size: cover; background-attachment: fixed;">
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <!-- Navbar brand/logo -->
+          <a class="navbar-brand" href="./home.html">GorMadii</a>
+    
+          <!-- Navbar toggler button for small screens -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Navbar links and dropdown -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Categories
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="./park.html">Park</a>
+                  <a class="dropdown-item" href="./cafe.html">Café</a>
+                  <a class="dropdown-item" href="./co_working.html">Co-Working</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./home.html">Stations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutus.html">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- สร้าง Container เพื่อใส่ชื่อ Page -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+              <h1 class="mb-3" style="color:rgb(255, 255, 255); font-weight: 700; font-size: 80px; text-shadow: 5px 5px 6px rgb(79, 79, 79); 
+              text-align: center;"> Café </h1>
+          </div>
+        </div>
+      </div>
+      <!-- สร้าง Container แบ่งเป็น 3 columns โดยการกำหนดค่าเป็น 4 -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt2" class="btn-danger">
+              <center><img src="./image/ลาดพร้าว.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt2" class="popup_mrt2">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248030.36618115113!2d100.32340455699614!3d13.750236466708285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29db3255b527d%3A0x8b0e38d99790775e!2sClassy%20Caf%C3%A9!5e0!3m2!1sen!2sth!4v1700942077261!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <p style="font-size: 20px;">Classy Café ลาดพร้าว</p>
+              <p>จิบกาแฟ ชมงานศิลป์ ทำงาน อ่านหนังสือ กลางเมือง คาเฟ่สวยๆ บนถนนรัชดาภิเษก Classy Cafe ร้านนี้น่ารัก เงียบสงบ เหมาะกับการมานั่งทำงาน มีทั้งโซน indoor และ outdoor แถมมีผลงานศิลปะให้ชมระหว่างนั่งทานกาแฟด้วย สำหรับอาหารมีขายหลายอย่างตั้งแต่ไข่กระทะ เค้ก ชา กาแฟ </p>
+              <p style="font-size: 20px;">การเดินทาง</p>
+              <p>ร้านอยู่ตรงข้ามอาคารจอดรถ MRT ลาดพร้าว ร้านเข้าได้ทั้งหมด 2 ทาง คือ รัชดา และ ลาดพร้าว</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+    
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt3" class="btn-danger">
+              <center><img src="./image/รัชดาภิเษก.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt3" class="popup_mrt3">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30997.546392511747!2d100.57173527766349!3d13.797353361063495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29deda1bb72dd%3A0x1b3381c72a1888ab!2smama%20Caf%C3%A9%20(Ratchada%2019)!5e0!3m2!1sen!2sth!4v1700943083625!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <p style="font-size: 20px;">Mama Café รัชดาภิเษก</p>
+              <p>คาเฟ่ที่มีวิวเป็นสระน้ำในย่านรัชดา ?!?
+                คาเฟ่ที่ว่านี่คือ mama cafe ตั้งอยู่ในซอยรัชดา 19 ค่ะ ที่สำคัญคือคาเฟ่นี้มีบึงขนาดย่อมๆ แถมอยู่ติดถนนเลย วิวดีลมผ่านตลอด ถ่ายรูปสวย นั่งอ่านหนังสือ นั่งทำงานได้ ตรงสะพานที่ยื่นลงไปในบึงคือถ่ายสวยมากมินิมอลสุดๆ นอกจากวิวสวยแล้วเครื่องดื่มก็รสชาติดีด้วยค่ะ เราสั่งเป็นชาเขียว รสชาติดีเลยค่ะ นอกจากนี้ยังมีขนมหวานอื่น ๆ อีกด้วยนะ</p>
+              <p style="font-size: 20px;">การเดินทาง</p>
+              <p>รถไฟฟ้าใต้ดิน MRT ลงสถานีรัชดา ทางออก 2 เดิน เข้ามาในซอยถึงสามแยก เลี้ยวซ้าย เดินต่ออีกหน่อยจะเจอร้านอยู่ซ้ายมือ</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+    
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt4" class="btn-danger">
+              <center><img src="./image/สุทธิสาร.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt4" class="popup_mrt4">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.8388458508666!2d100.5758792732486!3d13.788586586607119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29dff41aec853%3A0x2af601335a70111d!2zVG8gQ2hhcmUg4LiX4Li54LmB4LiK4Lij4LmM!5e0!3m2!1sen!2sth!4v1700944541460!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <p style="font-size: 20px;">To Chare Café ทูแชร์ สุทธิสาร</p>
+              <p>เป็นคาเฟ่ที่ไม่ได้มีแค่เครื่องดื่ม ถ้าให้พูดถึง to chare คงเป็นเหมือนพื้นที่นั่งพักนั่งแชร์เรื่องราวในชีวิตอาจจะเป็นที่ใช้ฮีลใจในวันพัง ๆ พื้นที่ด้านนอกของร้านเหมือนเป็นลานกิจกรรมในเรานั่งคุยนั่งเล่นหรืออ่านนั่งสือรับบรรยากาศธรรมชาติ ร้านมี2ชั้น โดยบริเวณชั้นล่างเป็นร้านคาเฟ่มีทั้งเมนู coffee และ non-coffee และมีขนมนิดหน่อย ส่วนบริเวณชั้น2ของร้านเป็นร้านสัก</p>
+              <p style="font-size: 20px;">การเดินทาง</p>
+              <p>MRT สุทธิสาร ทางออก 3 และเดินมาที่ซอยสุขโข ร้านอยู่สุดซอย</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+    
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt6" class="btn-danger">
+              <center><img src="./image/ศูนย์วัฒนธรรม.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt6" class="popup_mrt6">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15500.599332752092!2d100.56336570240896!3d13.769836427991171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29e879da91fdf%3A0x9804f6a60432e6fa!2sPunthai%20Coffee!5e0!3m2!1sen!2sth!4v1700943597312!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+              </div>
+                <p style="font-size: 20px;">PHUNTHAI Coffee ศูนย์วัฒนธรรม</p>
+                <p>ถ้าคุณกำลังมองหาคาเฟ่พื้นที่กว้างขวาง มีกาแฟรสชาติมาตรฐาน มีที่นั่งทำงานสบายๆ punthai coffee ก็ถือว่าตอบโจทย์เลย อาจจะต้องใช้เวลาเดินอีกนิดหน่อยจากทางออกสถานี แต่ถ้าจะนั่งยาวๆ ก็ถือว่าคุ้มค่า punthai coffee เป็นทั้งร้านกาแฟนั่งชิลและร้านอาหาร แถมราคาไม่แรง กินคาวเสร็จต่อด้วยหวาน นั่งคุยชิล ๆ กับเพื่อน หรือจะนั่งทำงานก็ยังได้ ภายใน เงียบ ไม่มีเสียงดัง เผื่อใครอยากจะหนีความวุ่นวาย ที่นี้ถือว่าเป็นอีกทางเลือกที่ดี</p>
+                <p style="font-size: 20px;">การเดินทาง</p>
+                <p>ห่างจากทางออกรถไฟฟ้า MRT สถานีศูนย์วัฒนธรรมแห่งประเทศไทยประมาณ 400 ม. (ใช้ทางออก 1 ออกมาแล้วเดินอีกหน่อย ร้านตั้งอยู่ใน CW Tower ชั้น2)</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+    
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt9" class="btn-danger">
+              <center><img src="./image/สุขุมวิท.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt9" class="popup_mrt9">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15502.483228463296!2d100.55329650240206!3d13.741392530930074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f0bf363992b%3A0x732018ae17fc46d8!2sCosmos%20Cafe%20Bangkok!5e0!3m2!1sen!2sth!4v1700943795456!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+              </div>
+                <p style="font-size: 20px;">Cosmos Café สุขุมวิท</p>
+                <p>Cosmos Cafe Bangkok เป็นคาเฟ่ที่ไม่เล็กไม่ใหญ่มี 2 ชั้น ชั้นบนจะเป็นโซน Outdoor ไม่มีแอร์แต่มีพัดลมที่แรงและลมเย็นมากบริการให้ทุกโต๊ะ พนักงานบริการดี บรรยากาศเหมาะกับการนั่งจิบกาแฟ ใส่หูฟัง ฟังเพลงไป ทำงานไป ใครจะไปอ่านหนังสือวันหยุดชิล ๆ ก็ถือว่าเป็นตัวเลือกที่ดี นอกจากนี้ขนมหวานก็อร่อยมากและไม่แพงด้วย แนะนำให้สั่งมาลองทานนะคะ</p>
+                <p style="font-size: 20px;">การเดินทาง</p>
+                <p>MRT สุขุมวิททางออกที่ 1 เดินอีก 600 เมตร</p>
+                <p>BTS ทางออกที่ 3 เดินทางเชื่อมลงมาที่ MRT สุขุมวิท แล้วเดินลอดไปได้ค่ะ</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+    
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt11" class="btn-danger">
+             <center> <img src="./image/ลุมพินี.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt11" class="popup_mrt11">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124027.44271179252!2d100.5417503!3d13.7270708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29fd101a7e765%3A0x51233042ccd0c863!2sF.I.X.%20Sala%20Daeng!5e0!3m2!1sen!2sth!4v1700943976690!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+              </div>
+                <p style="font-size: 20px;">Fix Coffee ศาลาแดง</p>
+                <p>F.I.X. Coffee ที่นี่เป็นสาขาน้องใหม่ สาขานี้มีโซนดริปบาร์และจะมีเมล็ดกาแฟพรีเมี่ยมจากหลายๆ แหล่งปลูกทั้งไทย 
+                  และต่างประเทศมาให้ทุกคนได้ลองชิม โดยตัวร้านจะมีทั้งหมด 2 ชั้น ที่นั่งเยอะและกว้าง สามารถนั่งทำงานได้ หากใครอยากนั่งทำงานไปพลาง จิบเครื่องดื่มอร่อย ๆ ไปพลาง ที่นี่ถือเป็นอีกที่ที่ห้ามพลาดเลยทีเดียว </p>
+                <p style="font-size: 20px;">การเดินทาง</p>
+                <p>อยู่ตรงข้ามสวนลุม ขึ้น MRT สถานีลุมพินี และเดินเข้าซอยศาลาแดง 1</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+    
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt14" class="btn-danger">
+              <center><img src="./image/หัวลำโพง.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt14" class="popup_mrt14">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15503.1233371934!2d100.50470810239972!3d13.731714731928893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e299d013570b15%3A0xf2e1dc398806743a!2sHouse%20of%20Commons%20-%20Book%20Cafe%20%26%20Space%20(HOC)!5e0!3m2!1sen!2sth!4v1700944239804!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+              </div>
+                <p style="font-size: 20px;">HOC café and space หัวลำโพง</p>
+                <p>HOC ย่อมาจาก House of Commons 
+                  เป็น Book Shop & Cafe & Space จิ๋วแต่แจ๋วมากภายในร้านบรรยากาศอบอุ่นเป็นกันเอง ภายในร้านมีที่นั่งไม่กี่โต๊ะ แต่ยังมีโซนด้านนอกร้านที่สามารถชมวิวแม่น้ำได้ด้วย ที่นี่มีหนังสือเยอะมาก มีทั้งให้อ่านฟรี หรือถ้าอ่านแล้วชอบก็มีขายเช่นกัน นอกจากจะมีหนังสือให้อ่านแล้ว ที่นี่ยังมีบอร์ดเกมให้เราเล่นฟรี ๆ อีกด้วยนะ ในส่วนของเครื่องดื่มของทานเล่นก็มีให้เลือกเยอะ มีทั้งอาหารมื้อเล็กทานเล่นไปจนถึงมื้อหลัก เครื่องดื่มก็มีทั้ง coffee & non-coffee หากใครแวะมาแถว River City อย่าพลาดที่จะเดินเข้ามานั่งพักที่ร้านนี้นะ </p>
+                <p style="font-size: 20px;">การเดินทาง</p>
+                <p>นั่งรถไฟใต้ดิน MRT มาลงสถานีหัวลำโพง แล้วต่อแท็กซี่หรือรถเมล์สาย 1, 35 และ 75 หรือจะเดินชิล ๆ จาก MRT หัวลำโพงก็ได้เช่นกัน</p>
+          </div>
+
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

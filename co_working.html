@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GorMadii_Places</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/your/styles.css">
+</head>
+<body style="background-image: url(./image/co-op.jpg); background-repeat: no-repeat;   background-size: cover; background-attachment: fixed;">
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <!-- Navbar brand/logo -->
+          <a class="navbar-brand" href="./home.html">GorMadii</a>
+    
+          <!-- Navbar toggler button for small screens -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Navbar links and dropdown -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Categories
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="./park.html">Park</a>
+                  <a class="dropdown-item" href="./cafe.html">Café</a>
+                  <a class="dropdown-item" href="./co_working.html">Co-Working</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./home.html">Stations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutus.html">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- สร้าง Container เพื่อใส่ชื่อ Page -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+              <h1 class="mb-3" style="color:rgb(255, 255, 255); font-weight: 700; font-size: 80px; text-shadow: 5px 5px 6px rgb(79, 79, 79); 
+              text-align: center;"> Co-Working </h1>
+          </div>
+        </div>
+      </div>
+      <!-- สร้าง Container แบ่งเป็น 3 columns โดยการกำหนดค่าเป็น 4 -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt1" class="btn-danger">
+              <center><img src="./image/พหลโยธิน.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt1" class="popup_mrt1">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.4589889587423!2d100.56761337324919!3d13.811455186586667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29da77aac56f5%3A0x81fccfff26bc70ba!2sBluekoff%20Education%20Center!5e0!3m2!1sen!2sth!4v1700945257951!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <p style="font-size: 20px;">BLUEKOFF พหลโยธิน</p>
+              <p>Bluekoff มีเรื่องราวความเป็นมายาวนานกว่า 18 ปี โดยชื่อร้านมีที่มาจากคำว่า "Blue Bean Coffee" มาจากสีของเมล็ดกาแฟที่ดี ที่จะต้องมีสีเขียวอมฟ้า เรียกได้ว่าที่นี่มีครบทุกอย่างที่คนรักกาแฟต้องการ มีพื้นที่ให้อ่านหนังสือ นั่งชิลจิบกาแฟฟิน ๆ ด้วยค่ะ หน้าร้านตรงนี้จะแบ่งเป็นโซนที่เป็นโชว์รูมแสดงสินค้าและโซนที่เป็นร้านกาแฟ โดยโซนที่เป็นร้านกาแฟนอกจากจะขายกาแฟที่ดีในราคาที่เหมาะสมแล้ว ยังเป็นโมเดลในการศึกษาธุรกิจร้านกาแฟให้ลูกค้าสามารถ walk-in เข้ามาสอบถามได้</p>
+              <p style="font-size: 20px;">การเดินทาง</p>
+              <p>อาคารพร้อมพันธุ์ 2 ชั้น 1 ซอยลาดพร้าว 3 เขตจตุจักร กรุงเทพมหานคร MRT พหลโยธิน ทางออก 5</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt5" class="btn-danger">
+              <center><img src="./image/ห้วยขวาง.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt5" class="popup_mrt5">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15499.580905459294!2d100.56832612652312!3d13.785189128766122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29d3c5bbe26ef%3A0x4fcaf871434f5653!2sOasis%20Coffee!5e0!3m2!1sen!2sth!4v1700943547362!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <p style="font-size: 20px;">Oasis ห้วยขวาง</p>
+              <p>สายทำงานดึกห้ามพลาด ใครที่อยู่บ้านแล้วคิดอะไรไม่ออก Oasis Coffee ห้วยขวาง Cafe & Co-Working Space ที่เปิด 24 ชั่วโมง ร้านตกแต่งสไตล์ยุโรป ที่นี่มี 2 ชั้น และมีปลั๊กไฟให้ต่อพร้อมสำหรับการทำงาน จะแบกโน๊ตบุ๊คมาทำงานหรือจะมาจิบกาแฟชิลล์ก็ย่อมได้ ในส่วนของเครื่องดื่มมีรสชาติดีกลมกล่อม ราคา 90-100 บาทขึ้นไป</p>
+              <p style="font-size: 20px;">การเดินทาง</p>
+              <p>ลงสถานีห้วยขวาง ทางออก 2 เดินเข้าซอยประชาราษฎร์บำเพ็ญ 3 เมตร ร้านอยู่ทางด้านขวามือ</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt7" class="btn-danger">
+              <center><img src="./image/พระราม9.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt7" class="popup_mrt7">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15501.404955871543!2d100.55559050240599!3d13.757679829247834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29fdff434e043%3A0xda72d75063f3bddb!2sB2S%20Stationery%20(Central%20Rama%209%20B%20Floor)!5e0!3m2!1sen!2sth!4v1700943644976!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+              </div>
+              <p style="font-size: 20px;">B2S Central พระราม 9</p>
+              <p>หากใครต้องการนั่งทำงาน หรืออ่านนั่งสือฆ่าเวลาสั้น ๆ B2S เซ็นทรัลพระราม 9 ถือว่าตอบโจทย์ เพราะนอกจากจะเป็นร้านหนังสือและอุปกรณ์เครื่องเขียนต่าง ๆ แล้ว ที่สาขานี้ยังมีที่นั่งทั้งแบบโต๊ะและบาร์บริการให้นั่งทำงานได้อีกด้วย</p>
+              <p style="font-size: 20px;">การเดินทาง</p>
+              <p>ใช้บริการ MRT โดยลงสถานีพระราม 9 ทางออก 2 ขึ้นจากบันไดเลื่อนเลี้ยวขวาเข้าห้างเซ็นทรัลพระราม9 จากนั้นใช้บันไดเลื่อนหรือลิฟต์ขึ้นไป B2S ที่ชั้น 7</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt8" class="btn-danger">
+              <center><img src="./image/เพชรบุรี.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt8" class="popup_mrt8">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15502.198186316642!2d100.55535420240308!3d13.745699930485342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29efca933e27f%3A0x363af8aca2a6964c!2sThe%20Central%20Library%20of%20Srinakharinwirot%20University!5e0!3m2!1sen!2sth!4v1700943671542!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+              </div>
+              <p style="font-size: 20px;">หอสมุดกลาง มศว</p>
+              <p>สำหรับนิสิต มศว ที่กำลังมองหาที่นั่งทำงานและอ่านหนังสือฟรี ไม่ต้องเดินทางไปที่ไหนไกล เพราะในมหาวิทยาลัยศรีนครินทรวิโรฒมีหอสมุดกลางให้บริการแก่นิสิตทุกคนอยู่ และยังเปิดบริการ 24 ชั่วโมงในช่วงที่มีการสอบกลางภาคและปลายภาค แถมยังมีตู้กดน้ำฟรี รวมไปถึงตู้ขายขนมอัตโนมัติบริการในเวลาที่นิสิตอ่านหนังอยู่ดึกอีกด้วย</p>
+              <p style="font-size: 20px;">การเดินทาง</p>
+              <p>MRT เพชรบุรี ประตู 2 เดินย้อนข้ามคลองแสนแสบถึง 7-eleven ข้ามฝั่งไปโรงพยาบาลจักษุรัตนิน เดินเข้าไปจนสุดซอยด้านข้างมหาวิทยาลัย</p>
+              <p>MRT สุขุมวิท 2 เดินย้อนเข้าตึก Interchange ออกด้านหลัง ขึ้นวินมอเตอร์ไซค์ซอยสุขุมวิท 23</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+          <div class="col-lg-4" style="margin-top: 10px;">
+            <a href="#popup_mrt13" class="btn-danger">
+              <center><img src="./image/สามย่าน.png" width="250" height="230"></center>
+            </a>
+            <div id="popup_mrt13" class="popup_mrt13">
+              <a href="#" class="close" style="font-size: 18px;">X</a>
+              <p style="font-size: 24px;">ข้อมูลสถานที่</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15503.015160000215!2d100.51797910240009!3d13.733350731760089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f149679d6eb%3A0x3466a3254853be29!2sNaiin%20Samyan%20Mitrtown!5e0!3m2!1sen!2sth!4v1700944188760!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+              </div>
+              <p style="font-size: 20px;">Mind Space สามย่าน</p>
+              <p>ร้านหนังสือในเมืองที่เปิด 24 ชั่วโม อยู่ไม่ใกล้ไม่ไกลที่สามย่านมิตรทาวน์ Mind Space Managed By Naiin ซึ่งเปิดมาได้กว่า 4 ปีแล้ว โดยร่วมมือกับร้านหนังสือนายอินทร์เข้ามาบริหารงาน และเปลี่ยนให้เป็นร้านหนังสืออย่างเต็มตัว ถึงจะเป็นร้านหนังสือแล้ว แต่ก็ยังไม่เปลี่ยนในเรื่องความเป็นพื้นที่สำหรับทุกคน โดยพื้นที่ชั้นล่างจะมีโซนอัฒจรรย์ให้เราได้หยิบเล่มที่น่าสนใจมาลองนั่งอ่านเพลิน ๆ ก่อนได้ ถูกใจแล้วโดยมีเบาะรองนั่งเอาไว้ให้เรียบร้อย เราจะเห็น เด็ก ๆ มานั่งอ่านหนังสือกันที่นี่อยู่ต่อเนื่องเลย</p>
+              <p style="font-size: 20px;">การเดินทาง</p>
+              <p>นั่ง mrt มาลงสถานีสามย่าน เเล้วออกทางออก 2 ขึ้นมาชั้น G เเล้วมองหา Starbucks ก็จะเจอร้าน Mind Space เเล้วค่ะ มันจะอยู่ข้าง ๆ กันเลย เเต่ร้านจะใช้ชื่อเป็น C-asean ค่ะ ตัวใหญ่ ๆ อักษรสีเเดงกับน้ำเงิน</p>
+            </div>
+            <a href="#" class="close-popup"></a>
+          </div>
+
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,645 @@
+/* กำหนด Header */
+header{
+    background: url(../image/pexels-jane-doan-1024248.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    border-bottom: 8rem;
+    height: 500px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+  
+.footer p {
+   margin: 0;
+}
+/* กำหนดระยะห่างด้านล่างด้วย Margin */
+.col-lg-6{
+    margin-bottom: 10px;
+}
+
+.col-lg-4{
+    margin-bottom: 10px;
+}
+
+/* ใส่ links google map */
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+/* กำหนด PopUp ข้อมูล MRT ทั้ง 14 สถานี */
+.popup_mrt1{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt1 p {
+    margin-bottom: 15px;
+}
+.popup_mrt1:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt1 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt1 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt2{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt2 p {
+    margin-bottom: 15px;
+}
+.popup_mrt2:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt2 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt2 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt3{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt3 p {
+    margin-bottom: 15px;
+}
+.popup_mrt3:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt3 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt3 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt4{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt4 p {
+    margin-bottom: 15px;
+}
+.popup_mrt4:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt4 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt4 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt5{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt5 p {
+    margin-bottom: 15px;
+}
+.popup_mrt5:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt5 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt5 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt6{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt6 p {
+    margin-bottom: 15px;
+}
+.popup_mrt6:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt6 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt6 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt7{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt7 p {
+    margin-bottom: 15px;
+}
+.popup_mrt7:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt7 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt7 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt8{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt8 p {
+    margin-bottom: 15px;
+}
+.popup_mrt8:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt8 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt8 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt9{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt9 p {
+    margin-bottom: 15px;
+}
+.popup_mrt9:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt9 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt9 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt10{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt10 p {
+    margin-bottom: 15px;
+}
+.popup_mrt10:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt10 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt10 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt11{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt11 p {
+    margin-bottom: 15px;
+}
+.popup_mrt11:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt11 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt11 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt12{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt12 p {
+    margin-bottom: 15px;
+}
+.popup_mrt12:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt12 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt12 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt13{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt13 p {
+    margin-bottom: 15px;
+}
+.popup_mrt13:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt13 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt13 .close:hover{
+    color: rgb(203, 11, 11)
+}
+
+.popup_mrt14{
+    position: fixed;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 500px;
+    overflow-y: auto;
+    border-radius: 0.5em;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 560px;
+    width: 500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visiblility 0s linear .5s;
+    z-index: 1;
+}
+.popup_mrt14 p {
+    margin-bottom: 15px;
+}
+.popup_mrt14:target{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+.popup_mrt14 .close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: color .3s;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.popup_mrt14 .close:hover{
+    color: rgb(203, 11, 11)
+}
+/* กำหนดปิด PopUp ข้อมูล */
+.close-popup{
+    background-color: black;
+    cursor: default;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0%;
+    bottom: 0%;
+    opacity: 0%;
+    visibility: hidden;
+    transition: opacity .5s, visiblility 0s linear .5s;
+}
+.popup:target+ .close-popup{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}
